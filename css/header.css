@@ -1,2 +1,43 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+
+.header{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ 
+.signbtn{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin: 5px;
+    padding: 10px;
+    
+ }
+h1{
+    font-family : 'Satisfy',cursive;
+    color : blue;
+    font-weight: normal;
+    margin: 0 0 0 5px;
+ }
+h5{
+    font-family : 'Satisfy',cursive;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-left: 5px;
+ }
+.postbutton{
+    color: black;
+    font-weight: bold;
+    background-color: yellow;
+    border-color: white;
+    padding: 10px;
+    margin: 5px;
+   
+ }
+.postButtons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+ }
