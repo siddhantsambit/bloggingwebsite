@@ -1,2 +1,2 @@
 # bloggingwebsite
-Static bloggin website for writeup blog
+Static blogging website for writeup blog
